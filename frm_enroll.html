@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/favicon.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>DAM BootCamp- Register</title>
+  </head>
+
+  <body>
+    <div id="enroll_container">
+        <!-- =================================================================================== Starting of nav-container-->
+        <div id="nav_container">
+          <img src="Image/logo.png" alt="logo image">
+    
+          <nav id="top-nav">
+            <ul>
+              <li><a href="index.html#top-nav">HOME</a></li>
+              <li><a href="index.html#about">ABOUT</a></li>
+              <li><a href="index.html#text_cell">COURSES</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="frm_login.html">LOGIN</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- =================================================================================== Starting of Main section -->
+        <main>
+            <h1>Enrollment Form</h1>
+            <form id="form_enroll" action="msg_enroll.html" method="get">
+                <fieldset>                    
+                    <table id="personal_info">
+                        <tr>
+                            <td><label for="first_name">First Name *</label><br>
+                                <input type="text" id="first_name" size="25" maxlength="30" required="Requried">
+                            </td>
+                            <td><label for="last_name">Last Name *</label><br>
+                                <input type="text" id="last_name" size="25" maxlength="30" required="Requried">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail *</label><br>
+                                <input type="email" id="email" size="25" maxlength="30" placeholder="example: John.smith@mail.com" required="Requried">
+                            </td>
+                            <td><label for="last_name">Phone</label><br>
+                                <input type="tel" id="last_name" size="25" maxlength="30">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td> 
+                                <fieldset id="fld_class_mode">
+                                    <legend>Select Class Mode</legend>
+                                    <input type="radio" name="class_mode" id="mode_choice1" value="On-Class"> <label for="mode_choice1"> On-Class</label> <br>
+                                    <input type="radio" name="class_mode" id="mode_choice2" value="Online"> <label for="mode_choice2"> Online</label> <br>
+                                    <input type="radio" name="class_mode" id="mode_choice3" value="Hybrid"> <label for="mode_choice3"> Hybrid</label>
+                                </fieldset>
+                            </td>
+                            <td> 
+                                <fieldset id="fld_availability">
+                                    <legend>Availability</legend>
+                                    <input type="radio" name="availability" id="availability_choice1" value="full_time"> <label for="availability_choice1"> Full time</label> <br>
+                                    <input type="radio" name="availability" id="availability_choice2" value="part-time"> <label for="availability_choice2"> Part time</label> <br>
+                                    <input type="radio" name="availability" id="availability_choice3" value="weekend-only"> <label for="availability_choice3"> Weekend only</label>
+                                </fieldset>
+                            </td>                     
+                        </tr>
+                    </table>            
+                <fieldset id="fld_interested">
+                    <legend>Interested In</legend>
+                    <table id="tbl_interested">
+                        <tr>                    
+                            <td><input type="checkbox" name="interested" id="interested_choice1" value="course1"> <label for="interested_choice1">Course Title 1</label></td>    
+                            <td> <input type="checkbox" name="interested" id="interested_choice2" value="course2"> <label for="interested_choice2">Course Title 2</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="interested" id="interested_choice3" value="course3"> <label for="interested_choice3">Course Title 3</label></td>
+                            <td><input type="checkbox" name="interested" id="interested_choice4" value="course4"> <label for="interested_choice4">Course Title 4</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="interested" id="interested_choice5" value="course5"> <label for="interested_choice5">Course Title 5</label></td>
+                            <td></td>
+                        </tr>
+                    </table>                      
+                </fieldset>
+            <input class="btn_cancel" type="button" value="Cancel" onclick="history.back()">
+            <input class="btn_reset" type="reset" value="Reset">
+            <input class="btn_submit" type="submit" value="Enroll">   
+          </fieldset>
+        </form>
+        <hr>
+      </main>
+      
+<!-- ===================================================================================  Starting of footer section--> 
+        <footer>
+            <aside id="footer_left">
+                <p class="footer_text"><strong>Useful Links</strong></p>
+                <div id="sec_nav">
+                    <div class="sec_nav_item"><a href="index.html#top-nav">HOME</a></div>
+                    <div class="sec_nav_item"><a href="index.html/about.html">ABOUT</a></div>
+                    <div class="sec_nav_item"><a href="index.html#text_cell">COURSES</a></div>
+                    <div class="sec_nav_item"><a href="faq.html">FAQ</a></div>
+                    <div class="sec_nav_item"><a href="contact.html">CONTACT</a></div>
+                    <div class="sec_nav_item"><a href="frm_login.html">LOGIN</a></div>
+                </div>
+
+            </aside>
+            <div id="footer_middle">
+                <p class="footer_text"><strong>Contact</strong></p>
+                <p class="footer_text">123 Street Name | QC | A1B 2C3 </p>
+                <p class="footer_text"><strong>T:</strong> 514.123.4567</p>
+                <p class="footer_text"><strong>F:</strong> 514.123.4567</p>
+
+
+            </div>
+
+            <aside id="footer_right">
+                <p class="footer_text"><strong>Social Media</strong></p>
+                <ul id="sec_naviagtion2">
+                    <li id="social_media_icon2"><a href="#4"><img src="Image/facebook.png" alt="facebook"></a></li>
+                    <li id="social_media_icon3"><a href="#5"><img src="Image/instagram.png" alt="instragam"></a></li>
+                    <li id="social_media_icon4"><a href="#6"><img src="Image/twitter.png" alt="twitter"></a></li>
+                    <li id="social_media_icon1"><a href="#1"><img src="Image/linkedin.png" alt="Linkedin"></a></li>
+                </ul>
+
+            </aside>
+
+        </footer>
+        <div id="footer_bottom">
+            <h6>Copyright &copy; 2022</h6>
+        </div>
+    </div>
+  </body>
+</html>

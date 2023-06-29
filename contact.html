@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/favicon.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>ADM BootCamp-Course1</title>
+  </head>
+
+  <body>
+    <div id="contact_container">
+    <!-- =================================================================================== Starting of nav-container-->
+    <div id="nav_container">
+        <img src="Image/logo.png" alt="logo image">
+  
+        <nav id="top-nav">
+          <ul>
+            <li><a href="index.html#top-nav">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html#text_cell">COURSES</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="frm_login.html">LOGIN</a></li>
+          </ul>
+        </nav>
+      </div>
+    <!-- ===================================================================================  Starting of hero image section-->
+
+    <div id="contact_hero_bg"> 
+        <h1 class="title_contact">DAM Institute</h1>
+        <h1 class="subtitle_contact">4444 Any Street Name, <br>
+                                     Any City Name, Any State Name,<br>
+                                     Postal code: X1A 1J4 <br></h1>        
+    </div> 
+
+    <!-- ===================================================================================  Starting of header section--> 
+        <div id="contact_left">
+            <table id="tbl_contact">                
+                <td colspan="2"><h1>Contact Information </h1></td>
+                <tr>
+                    <td colspan="2">If you have questions, contact us @</td>
+                </tr>
+                <tr>
+                    <td> Email:</td> <td>consequu@consequu.com </td>
+                </tr>
+                <tr>
+                    <td>Tel</td> <td>+1 (123) 567 7890</td>
+                </tr>
+                <tr>
+                    <td>Office Hours:</td> <td>7:30 am to 4:00 pm</td>
+                </tr>
+            </table>    
+        </div>
+
+        <div id="contact_us_icons">
+            <img src="Image/contact_us_icon.png" alt="Contact Us Icons">
+        </div>
+
+        <div id="contact_right"> 
+            <h1>We would love to hear from you</h1>           
+            <form id="form_enquiry" action="msg_enquiry.html" method="get">         
+            
+
+                <fieldset>
+                    <legend><h4>Send Us Message </h4></legend>
+                    <table id="personal_info">
+                        <tr>
+                            <td><label for="first_name">First Name *</label><br>
+                                <input type="text" id="first_name" size="25" maxlength="30" required="Requried">
+                            </td>
+                            <td><label for="last_name">Last Name *</label><br>
+                                <input type="text" id="last_name" size="25" maxlength="30" required="Requried">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email" name="email">E-mail *</label><br>
+                                <input type="email" id="email" size="25" maxlength="30" placeholder="example: John.smith@mail.com" required="Requried">
+                            </td>
+                            <td><label for="phone_no"  name="phone" placeholder="123 456 789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Phone</label><br>
+                                <input type="tel" id="phone_no" size="25" maxlength="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="message">Comments *</label><br>
+                                <textarea name="message" id="message" cols="60" rows="15" maxlength="1000" required="Required" placeholder="Type your comments here .....   (limit: 1000 character)"></textarea>
+    
+                            </td>
+                        </tr>
+                    </table>          
+                   
+                    <input class="btn_reset" type="reset" value="Cancel/Reset">               
+                    <input class="btn_submit" type="submit" value="Send Message">   
+              </fieldset>
+            </form>
+        </div>      
+
+
+       <hr>
+
+<!-- ===================================================================================  Starting of footer section-->      
+
+<footer>
+    <aside id="footer_left">
+        <p class="footer_text"><strong>Useful Links</strong></p>
+        <div id="sec_nav">
+            <div class="sec_nav_item"><a href="index.html#top-nav">HOME</a></div>
+            <div class="sec_nav_item"><a href="index.html/about.html">ABOUT</a></div>
+            <div class="sec_nav_item"><a href="index.html#text_cell">COURSES</a></div>
+            <div class="sec_nav_item"><a href="faq.html">FAQ</a></div>
+            <div class="sec_nav_item"><a href="contact.html">CONTACT</a></div>
+            <div class="sec_nav_item"><a href="frm_login.html">LOGIN</a></div>
+        </div>
+
+    </aside>
+    <div id="footer_middle">
+        <p class="footer_text"><strong>Contact</strong></p>
+        <p class="footer_text">123 Street Name | QC | A1B 2C3 </p>
+        <p class="footer_text"><strong>T:</strong> 514.123.4567</p>
+        <p class="footer_text"><strong>F:</strong> 514.123.4567</p>
+
+
+    </div>
+
+    <aside id="footer_right">
+        <p class="footer_text"><strong>Social Media</strong></p>
+        <ul id="sec_naviagtion2">
+            <li id="social_media_icon2"><a href="#4"><img src="Image/facebook.png" alt="facebook"></a></li>
+            <li id="social_media_icon3"><a href="#5"><img src="Image/instagram.png" alt="instragam"></a></li>
+            <li id="social_media_icon4"><a href="#6"><img src="Image/twitter.png" alt="twitter"></a></li>
+            <li id="social_media_icon1"><a href="#1"><img src="Image/linkedin.png" alt="Linkedin"></a></li>
+        </ul>
+
+    </aside>
+
+</footer>
+<div id="footer_bottom">
+    <h6>Copyright &copy; 2022</h6>
+</div>
+</div>
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,1144 @@
+@charset "utf-8";
+/*  Developed by: Arjun Dhakal, Debora Bastos, Mihai Coanda, Date: Nov 3, 2022 /
+
+/* --------------------------------------- Common Styles to all html --------------------------------------------*/
+
+html,
+body {
+	font-family: montserrat, arial, serif;
+	background-color: #1A4345;
+	height: 100%;
+	margin: 0;
+}
+
+
+/* ------------------------------------Typography: Default font style ------------------------------------------*/
+p {
+	font-family: montserrat, arial, serif;
+	color: #80B991;
+}
+
+.dark {
+	color: #071B1B;
+}
+
+.white {
+	color: #fff;
+}
+
+/* ------------------------------------------Hero Title and Subtitle -------------------------------------------*/
+h1.title {
+	position: absolute;
+	font-family: montserrat, arial, serif;
+	font-size: 4em;
+	font-weight: 700;
+	color: #ffffff;
+	top: 35%;
+	width: 85%;
+	padding-left: 10%;
+}
+
+h1.subtitle {
+	position: absolute;
+	font-family: montserrat, arial, serif;
+	font-size: 2em;
+	font-weight: 300;
+	color: #ffffff;
+	top: 50%;
+	width: 85%;
+	padding-left: 10%;
+}
+
+h1.title_contact{
+	position: absolute;
+	font-family: montserrat, arial, serif;
+	font-size: 4em;
+	font-weight: 700;
+	color: #ffffff;
+	top: 68%;
+	width: 85%;
+	padding-left: 2%;
+}
+
+h1.subtitle_contact{
+	position: absolute;
+	font-family: montserrat, arial, serif;
+	font-size: 2em;
+	font-weight: 300;
+	color: #ffffff;
+	top: 80%;
+	width: 85%;
+	padding-left: 2%;
+}
+/* ---------------------------------------Section Title ---------------------------------*/
+h1.section_title {
+
+	font-family: montserrat, arial, serif;
+	font-size: 4em;
+	font-weight: 700;
+	color: #80B991;
+	width: 85%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+
+h1.section_subtitle {
+	font-family: montserrat, arial, serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: #80B991;
+}
+h1.section_subtitle_dark {
+	font-family: montserrat, arial, serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: #071B1B;
+}
+
+
+
+h1.CTA {
+	font-family: montserrat, arial, serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: #071B1B;
+	width: 85%;
+}
+
+p.CTA {
+	font-family: montserrat, arial, serif;
+	font-size: 1.5em;
+	font-weight: 400;
+	color: #071B1B;
+	width: 95%;
+}
+
+.footer_text {
+	font-family: montserrat, arial, serif;
+	color: #071B1B;
+}
+
+.footer{
+    margin-top:3px;
+}
+
+/* ---------------------------------------------------------------nav_container -------------------------------------------*/
+#nav_container {
+	margin: 0;
+	height: 90px;
+	background-color: #071B1B;
+	
+}
+
+#nav_container img {
+	width: 180px;
+	float: left;
+	margin: 10px 20px 10px 20px;
+}
+
+#nav_container ul {
+	margin: 25px 20px 0 0;
+	float: right;
+}
+
+#top-nav {
+	padding: 10px 20px 0 20px;
+	height: 25px;
+}
+
+/* ------------------------------styling the list items inside the top-nav ----------------------------------------------------*/
+#top-nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#top-nav ul li a {
+	color: #80B991;
+	margin: 5px;
+	padding: 5px;
+
+}
+
+#top-nav ul li a:link {
+	color: #80B991;
+	text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+	color: #071B1B;
+	background-color: #80B991;
+	padding: 5px 5px;
+}
+
+#top-nav ul li a:active {
+	color: #071B1B;
+	background-color: #80B991;
+	padding: 5px 5px;
+}
+
+/*-----------------------------------------------------------HERO section--------------------------------------------------*/
+#hero_bg {
+
+	background-image: url("../Image/hero_image.jpg");   
+	padding:auto 50px;
+	/* Full height */
+	height: 100%;
+	position: relative;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+	background-attachment: fixed;
+
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 100%;
+	height: 100%;
+}
+
+/* -----------------------------------------------------------------about us section -------------------------------- */
+.light_container{padding: 2% 0;
+	width:100%;
+	display: inline-block;
+	background-color: #80B991;
+	color:#071B1B;}
+.half {
+	width:41%;
+	padding:2%;
+	margin:2%;
+	display:inline-block;
+}
+.resize {
+	max-width: 100%;
+}
+
+
+/* -----------------------------------------------------------------upcoming_container-----------------------------------*/
+
+.carousel_container {
+	width: 91%;
+	margin: 0 auto;
+/*	display:inline-block;*/
+}
+.carousel_content {
+	width: 75%;
+	margin: 0 auto;
+/*	display:inline-block;*/
+	position:relative;
+}
+#carousel_element {
+	margin: auto;
+}
+
+#left_arrow {
+	margin: 150px 0;
+	float: left;
+}
+
+#left_arrow img {
+	width: 75px;
+	vertical-align: middle;
+}
+
+#right_arrow {
+
+	margin: 150px 0;
+	float: right;
+}
+
+#right_arrow img {
+	width: 75px;
+	vertical-align: middle;
+}
+
+.upCourse {	                       
+	/* Full height */
+	height: 350px;
+	width: 350px;
+	position: relative;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 3%;
+	display: inline-block;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.upCourse:hover {
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+.course_detail {
+	display: inline-block;
+}
+
+.start_date {
+	height: 100px;
+	width: 100px;
+	background-color: #071B1B;
+	padding: 3%;
+	margin: 55% 0 5% 5%;
+	display: inline-block;
+}
+.important_date {
+	height: 85px;
+	width: 85px;
+	background-color: #071B1B;
+	padding: 3%;
+	margin: 0% 0 5% 5%;
+	display: inline-block;
+}
+
+.day {
+	font-family: montserrat, arial, serif;
+	color: #80B991;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 0em;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.month {
+	font-family: montserrat, arial, serif;
+	color: #80B991;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 0em;
+	text-align: center;
+	margin: none !important;
+}
+
+.course_title {
+	font-family: montserrat, arial, serif;
+	/*	color:#80B991;*/
+	font-weight: 700;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	height: 100px;
+	width: 100px;
+	padding: 3%;
+	margin: 55% 0 5% 5%;
+	display: inline-block;
+}
+
+.slide_control {
+	display: block;
+	margin: 0 auto 3%;
+}
+
+/* -----------------------------------------------------------------callout_container -----------------------------------*/
+#callout_container {
+	padding: 2% 6%;
+	display: inline-block;
+	background-color: #80B991;
+}
+
+#callout_leftbar {	
+	max-width: 80%;
+    float:left;
+    display: inline;
+}
+
+#callout_rightbar {
+	display: inline;
+	float:right;
+}
+
+.btn_signup{
+    margin:80px 0 0 20px;    
+    padding:25px 40px;    
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: montserrat, arial, serif;
+    border: solid;
+	border-width: thick;    
+    color:#071B1B;
+    background-color: #80B991;
+    border-radius: 0.75rem; 
+    float:right; 
+
+}
+
+.btn_signup:hover {
+	color:#80B991;
+	background-color:#071B1B;    
+}
+
+/* -----------------------------------------------------------------discover more course ------------------------------------*/
+#all_course_container {
+	background-color: #1A4345;
+	/*	width:100%;*/
+	padding: 2%;
+}
+
+table.all_course_table {
+	border-spacing: 40px 0px;
+	margin: 0 auto;
+	padding: 3%;
+	color: #071B1B;
+
+
+}
+
+#text_cell {
+	width: 300px;
+	vertical-align: text-top;
+
+}
+
+#discover_more {
+	vertical-align: text-top;
+	color: blue;
+
+}
+
+.course_image img {
+	width: 300px;
+	height: 300px;
+
+
+
+}
+
+.course_bullet {
+	margin: 2px;
+	padding: 10px;
+	list-style-type: square;
+
+}
+
+
+.read_more{
+    margin:20px 0 0 0;    
+    padding:10px;    
+    font-size: large;
+    
+    font-family: montserrat, arial, serif;
+    font-weight: 500;
+    border: solid;
+	border-width: medium;    
+    color:#071B1B;
+    background-color: #80B991;
+    border-radius: 0.75rem;
+    list-style-type:none; 
+}
+
+
+.read_more:hover {
+	color:#80B991;
+	background-color:#071B1B;    
+}
+
+td.description {
+	padding: 2%;
+	background-color: #80B991;
+}
+
+/* -----------------------------------------------------------------footer ------------------------------------------*/
+
+footer {
+	background-color: #80B991;
+	padding: 1% 12%;
+	height: 150px;
+	color: #071B1B;
+}
+
+#footer_left {
+	margin: 0 150px 0 0;
+	float: left;
+}
+
+#footer_middle {
+	margin: 0;
+	text-align: left;
+	float: left;
+}
+
+#footer_right {
+	text-align: right;
+	float: right;
+}
+
+
+#sec_nav {
+	margin: 0;
+	display: inline-block;
+	font-size: small;
+	text-align: left;
+}
+
+#sec_naviagtion2 li {
+	margin: 0;
+	list-style-type: none;
+	display: inline;
+	font-size: small;
+	text-align: left;
+}
+
+.sec_nav_item {
+	display: inline-block;
+	padding: 0 10px 0 0;
+}
+
+.sec_nav_item a {
+	font-family: montserrat, arial, serif;
+	font-size: 1em;
+	color: #071B1B;
+	text-decoration: none;
+}
+
+.sec_nav_item a:hover {
+	font-family: montserrat, arial, serif;
+	font-size: 1em;
+	color: #071B1B;
+	text-decoration: underline;
+}
+
+
+#social_media_icon1 img {
+	width: 42px;
+}
+
+#social_media_icon2 img {
+	width: 42px;
+}
+
+#social_media_icon3 img {
+	width: 42px;
+}
+
+#social_media_icon4 img {
+	width: 42px;
+}
+
+#footer_bottom {
+	padding: 1px;
+	text-align: center;
+	clear: both;
+	background-color: #071B1B;
+	color: #80B991;
+	width: 100% !important;
+}
+
+
+/* ==============================================================================================================================================
+ ------------------------------------------------------------------ COURSE PAGE -----------------------------------------------------------------*/
+
+#course_container header{
+    background-color: #80B991;  
+}
+
+#course_container {
+	margin: 0 auto;
+	max-width: 100%;
+	height: 100%;
+}
+.padded_section{
+	width:100%;
+  margin-bottom:2%;
+}
+
+/*-----------------------------------------*/
+
+.hero_container{          
+    margin:10px 0 0 0;     
+}
+
+.course_hero_bg img{
+ width:100%;
+ object-fit: cover;    
+}
+
+.course_hero_bg {
+	/*-background-image: url("../Image/datascience_hero.jpg");   */
+	padding: auto 50px;
+	/* Full height */
+	height: 50%;
+	position: relative;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+	background-attachment: fixed;   
+}
+
+/* ---------------------------------------- -----------------------------------------------------------------*/
+
+#course_top_left {
+  margin: 0;
+  width: 30%;
+  height: 550px;
+/*  background-color: #071b1b;*/
+  float: left;
+}
+
+#course_top_right {
+  margin: 0;
+  width: 70%;
+  height: 550px;
+  float: left;
+}
+
+#table_imp_date {
+  border-spacing: 40px 25px;
+  font-family: montserrat, arial, serif;
+  color: #80b991;
+}
+
+#table_overview {
+  border-spacing: 125px 40px;
+  font-family: montserrat, arial, serif;
+  padding: 0 2%;
+  color: #80b991;
+}
+
+.date_col {
+  padding: 10px 25px;
+  font-weight: bolder;
+  word-wrap: normal;
+  font-family: montserrat, arial, serif;
+}
+
+.tbl_heading {
+  text-align: left;
+}
+
+/*------------------------------------------------------- Starting Mid Section ---------------------------------------- */
+
+#course_mid_left {
+  width: 38%;
+  height: 645px;
+  background-color: #80b991;
+  float: left;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+#course_mid_right {
+  width: 60%;
+  height: 683px;
+  background-color: #80b991;
+  float: right;
+}
+
+.prog_col {
+  column-width: 100px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 5px;
+}
+
+.title_col {
+  column-width: 400px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+  padding: 5px;
+}
+.hours_col {
+  column-width: 100px;
+  text-align: center;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.tbl_caption {
+  text-align: left;
+  padding: 1%;
+}
+
+#course_mid_right h1 {
+  text-align: left;
+  padding: 2%;
+}
+
+/* ------------------------------------------------Starting Success of Rate and Fees Section ---------------------------------------- */
+
+#course_3rdLeft {
+  margin: auto;
+  width: 32%;
+  height: 300px;
+  background-color: #1a4345;
+  float: right;
+}
+
+#course_3rdright {
+  margin: auto;
+  width: 68%;
+  height: 300px;
+  background-color: #1a4345;
+  float: left;
+}
+
+#table_success {
+  border-spacing: 75px 10px;
+  font-family: montserrat, arial, serif;
+  text-align: center;
+  word-wrap: normal;
+  color: #d1eec0;
+  padding: 45px 60px;
+  margin: auto;
+  display: flex;
+}
+
+#table_success tr:first-child td,
+#table_success tr:nth-child(3) td:nth-child(2) {
+  font-size: 50px;
+}
+
+#table_success tr:first-child td:first-child,
+#table_success tr:nth-child(3) td:first-child {
+  font-size: 30px;
+}
+
+#table_success tr:nth-child(3) td:nth-child(3),
+#table_success tr:nth-child(2),
+#table_success tr:nth-child(4) {
+  font-weight: 100;
+}
+
+#table_fee {
+  font-family: montserrat, arial, serif;
+  text-align: center;
+  color: #d1eec0;
+}
+
+#table_fee caption {
+  font-size: 30px;
+}
+
+#table_fee tbody {
+  font-size: 16px;
+  text-align: left;
+}
+
+#table_fee tbody tr td:first-child {
+  font-size: 20px;
+}
+
+#table_fee tbody tr td:nth-child(2) {
+  font-weight: 100;
+  padding-left: 13px;
+}
+
+
+
+ /* ==============================================================================================================================================
+ ------------------------------------------------------------------ CONTACT PAGE -----------------------------------------------------------------*/
+ #contact_container header{
+  background-color: #80B991;  
+}
+
+#contact_container {
+margin: 0 auto;
+max-width: 100%;
+height: 100%;
+}
+ 
+ 
+ 
+ #contact_hero_bg img{
+  width:100%;
+  object-fit: cover;    
+ }
+ 
+ #contact_hero_bg {
+  background-image: url("../Image/about_us.jpg");   
+  padding: auto 50px;
+  height: 90%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(7, 27, 27, 0.5);
+  background-attachment: fixed;   
+ }
+
+#contact_left {
+  margin: 0;
+  width: 25%;
+  height: 600px;
+  float: left;
+}
+
+#contact_us_icons{
+  margin:25px 0 0 0;   
+  float:left;
+}
+
+#contact_us_icons img{
+  margin:3% 40%;
+  width:60%;
+}
+
+#contact_right {
+  margin: 10px;
+  width: 30%;
+  height: 600px;
+  float:right;
+}
+
+#contact_container hr{
+  clear:both;
+  border-color: #1a4345;
+  border-width: 0;
+}
+
+
+
+
+#tbl_contact {
+  border-spacing: 30px 15px;
+  font-family: montserrat, arial, serif;
+  color:#d1eec0
+}
+
+#contact_right h1{
+  margin:0;
+  padding:0;
+  color: #d1eec0;
+}
+
+#form_enquiry{
+  color: #d1eec0
+}
+
+#form_enquiry .btn_reset{
+  margin:0 0 0 170px;    
+  padding:2px 20px;
+
+}
+
+#form_enquiry .btn_submit{
+  margin:0 0 0 30px;    
+  padding:2px 15px; 
+}
+
+ 
+ /* ==============================================================================================================================================
+ ------------------------------------------------------------------ FAQ PAGE -----------------------------------------------------------------*/
+ #faq_container {
+    margin:0 auto;
+    width:100%
+ } 
+
+ #faq_table{
+    margin:10px auto;
+    padding:0 5% 10%;
+    background-color:#80B991;
+ }
+
+ #faq_table_heading{
+    text-align: center;
+ }
+ 
+.question{
+    font-weight: bold;
+}
+
+ /* ==============================================================================================================================================
+ ---------------------------------------------------------------Forms Buttons Common Attributes ------------------------------------------------*/
+.btn_cancel{
+  border-spacing:10px; 
+  font-size: large;
+  background-color:#80B991; 
+  color: rgb(12, 5, 2);
+  border-radius: 0.5rem; 
+  float:left;
+  display:inline;
+}
+
+
+.btn_cancel:hover {
+color:#80B991;
+background-color:#071B1B;    
+}
+
+.btn_reset{
+  border-spacing:10px; 
+  font-size: large;
+  background-color:#80B991; 
+  color:#071B1B;
+  border-radius: 0.5rem; 
+  float:left;
+}
+
+.btn_reset:hover {
+color:#80B991;
+background-color:#071B1B;    
+}
+
+.btn_submit{
+  border-spacing:10px; 
+  font-size: large;
+  background-color:#80B991;   
+  color: rgb(12, 5, 2);
+  border-radius: 0.5rem; 
+  float:left;
+}
+
+.btn_submit:hover {
+  color:#80B991;
+  background-color:#071B1B;    
+}
+
+.btn_close{
+  margin:25px 140px 5px;   
+  padding:2px 15px; 
+  border-spacing:10px; 
+  font-size: large;
+  background-color:#80B991;   
+  color:#071B1B;
+  border-radius: 0.5rem;
+}
+
+.btn_close:hover {
+  color:#80B991;
+  background-color:#071B1B;    
+}
+
+ /* ==============================================================================================================================================
+ ---------------------------------------------------------------Form LogIn Page -----------------------------------------------------------------*/
+
+#login_container{
+  margin:2px auto;
+  width:100%
+}
+
+#login_container main{        
+  width:100%;
+  background-color:#80B991;    
+}
+
+#login_container main h1{
+  margin:5px auto;        
+  text-align: center;    
+}
+
+#login_container main hr{
+  margin:190px 0;        
+  width:0;
+  border-color: #80B991;  
+}
+
+#form_login{
+  margin:20px auto;
+  background-color:#80B991;
+  width:28%;    
+}
+
+#login_container table{
+  margin:2px auto;
+  padding:2px 2px; 
+  border-spacing:10px; 
+  font-size: large;    
+}
+
+#form_login .btn_cancel{
+  margin:20px 0 0 75px;    
+  padding:2px 12px; 
+
+}
+
+
+#form_login .btn_reset{
+  margin:20px 0 0 20px;    
+  padding:2px 18px;
+}
+
+
+#form_login .btn_submit{
+  margin:20px 0 0 20px;    
+  padding:2px 17px; 
+}
+
+/* ==============================================================================================================================================
+---------------------------------------------------------------Form Subcribe Form---------------------------------------------------------------*/
+#subscribe_container{
+  margin:0 auto;
+  width:100%
+}
+
+#subscribe_container main{  
+  margin:2px auto;      
+  width:100%;
+  background-color:#80B991;    
+}
+
+#subscribe_container main h1{
+  margin:5px auto;        
+  text-align: center;    
+}
+
+#subscribe_container main hr{
+  margin:165px 0;        
+  width:0;
+  border-color: #80B991;  
+}
+
+#form_subscribe{
+  margin:2px auto;
+  background-color:#80B991;
+  width:30%;    
+}
+
+#form_subscribe table{
+  margin:2px auto;
+  padding:2px 2px; 
+  border-spacing:30px;        
+}
+
+#form_subscribe .btn_cancel{
+  margin:0 0 0 170px;    
+  padding:2px 15px; 
+
+}
+
+#form_subscribe .btn_reset{
+  margin:0 0 0 30px;    
+  padding:2px 20px;
+
+}
+
+#form_subscribe .btn_submit{
+    margin:0 0 0 30px;    
+    padding:2px 15px; 
+}
+
+/* ==============================================================================================================================================
+ --------------------------------------------------------- LogIn/Subscribe/Enrollment/Massage sent Completed Page -----------------------------*/
+.complete_container{
+  margin:0 auto;
+  width:100%
+}
+
+.complete_container main{        
+  width:100%;
+  background-color:#80B991;    
+}
+
+.complete_container main h1{
+  margin:5px auto;        
+  text-align: center;    
+}
+
+.complete_container main hr{
+  margin:45px 0;        
+  width:0;
+  border-color: #80B991;  
+}
+
+.complete_container form{    
+  margin:10px auto 350px;
+  background-color:#80B991;
+  width:20%; 
+  text-align: center;   
+}
+
+.complete_msg{       
+  line-height: 30px;
+}
+
+.btn_close{
+  margin:25px 140px 5px;   
+  padding:2px 15px;
+}
+
+/* ==============================================================================================================================================
+ ---------------------------------------------------------------Form Enroll Page ---------------------------------------------------------------*/
+
+ #enroll_container{
+  margin:2px auto;
+  width:100%
+}
+
+#enroll_container main{        
+  width:100%;
+  background-color:#80B991;    
+}
+
+#enroll_container main h1{
+  margin:5px auto;        
+  text-align: center;    
+}
+
+#enroll_container main hr{
+  margin:40px 0;        
+  width:0;
+  border-color: #80B991;  
+}
+
+#form_enroll{
+  margin:5px auto;
+  background-color:#80B991;
+  width:25%;    
+}
+
+#personal_info{    
+  margin:10px auto;
+  padding:2px 2px; 
+  width:30%;  
+  border-spacing:10px; 
+  font-size: large;      
+}
+
+#fld_class_mode{
+  margin:2px auto;
+  padding:10px 2px; 
+  width:215px;
+  border-spacing:10px;    
+}
+
+#fld_class_mode legend{ 
+  font-size: large; 
+}
+
+#fld_availability{
+  margin:2px auto;
+  padding:10px 2px; 
+  width:215px;         
+}
+
+#fld_availability legend{ 
+  font-size: large; 
+}
+
+#fld_interested{
+  margin:10px auto;
+  padding:2px 2px; 
+  width:445px;
+  border-spacing:10px;    
+}
+
+#fld_interested legend{ 
+  font-size: large; 
+}
+
+#form_enroll .btn_cancel{
+  margin:20px 0 0 140px;    
+  padding:2px 15px;
+}
+
+#form_enroll .btn_reset{
+  margin:20px 0 0 20px;    
+  padding:2px 20px; 
+}
+
+#form_enroll .btn_submit{
+  margin:20px 0 0 20px;    
+  padding:2px 20px; 
+}
+
+#tbl_interested{
+  margin:2px 0;
+  padding:2px 2px; 
+  border-spacing:10px;      
+}
+
+/* ==============================================================================================================================================

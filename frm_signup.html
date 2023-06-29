@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/favicon.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>ADM BootCamp- Sign Up</title>
+  </head>
+
+  <body>
+    <div id="enquiry_container">
+      <header>
+        <img class="form_logo" src="Image/logo.png" alt="logo image">
+      </header>
+      <main>
+        <form id="form_enquiry" action="msg_signup.html" method="get">         
+            
+
+            <fieldset>
+                <legend>Sing Up </legend>
+                <table id="personal_info">
+                    <tr>
+                        <td><label for="first_name">First Name *</label><br>
+                            <input type="text" id="first_name" size="25" maxlength="30" required="Requried">
+                        </td>
+                        <td><label for="last_name">Last Name *</label><br>
+                            <input type="text" id="last_name" size="25" maxlength="30" required="Requried">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email" name="email">E-mail *</label><br>
+                            <input type="email" id="email" size="25" maxlength="30" placeholder="example: John.smith@mail.com" required="Requried">
+                        </td>
+                        <td><label for="phone_no"  name="phone" placeholder="123 456 789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">Phone</label><br>
+                            <input type="tel" id="phone_no" size="25" maxlength="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="message">Comments </label><br>
+                            <textarea name="message" id="message" cols="60" rows="15" maxlength="1000"  placeholder="Type your comments here .....   (limit: 1000 character)"></textarea>
+
+                        </td>
+                    </tr>
+                </table>           
+                <input id="btn_cancel_enquiry" type="button" value="Cancel" onclick="history.back()">                
+                <input id="btn_send" type="submit" value="Send Message">   
+          </fieldset>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

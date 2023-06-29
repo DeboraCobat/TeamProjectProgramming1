@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Image/favicon.png">
+    <link rel="stylesheet" href="Style/mystyle.css">
+    <title>ADM BootCamp- LOGIN</title>
+  </head>
+
+  <body>
+    <div id="login_container">
+      <!-- =================================================================================== Starting of nav-container-->
+        <div id="nav_container">
+          <img src="Image/logo.png" alt="logo image">
+    
+          <nav id="top-nav">
+            <ul>
+              <li><a href="index.html#top-nav">HOME</a></li>
+              <li><a href="index.html#about">ABOUT</a></li>
+              <li><a href="index.html#text_cell">COURSES</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="frm_login.html">LOGIN</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      <!-- =================================================================================== Starting of Main section --> 
+      <main>
+        <h1>Login</h1>
+        <form id="form_login" action="msg_login.html" method="get">
+          <fieldset>
+            <legend >Login as Administrator</legend>
+            <table>
+              <tr>
+                <td><label for="user_id">User ID*</label></td>
+                <td>
+                  <input type="text" id="user_id" size="20" maxlength="30" placeholder="user" required="Requried">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="login_password">Password*</label></td>
+                <td>
+                  <input type="password" id="login_password" size="20" maxlength="30" required="Requried">
+                </td>
+              </tr>
+            </table>
+            <input class="btn_cancel" type="button" value="Cancel" onclick="history.back()">
+            <input class="btn_reset" type="reset" value="Reset"> 
+            <input class="btn_submit" type="submit" value="Login">   
+          </fieldset>
+        </form>
+        <hr>
+      </main>
+
+      <!-- ===================================================================================  Starting of footer section--> 
+      <footer>
+        <aside id="footer_left">
+            <p class="footer_text"><strong>Useful Links</strong></p>
+            <div id="sec_nav">
+                <div class="sec_nav_item"><a href="index.html#top-nav">HOME</a></div>
+                <div class="sec_nav_item"><a href="index.html#about">ABOUT</a></div>
+                <div class="sec_nav_item"><a href="index.html#text_cell">COURSES</a></div>
+                <div class="sec_nav_item"><a href="faq.html">FAQ</a></div>
+                <div class="sec_nav_item"><a href="contact.html">CONTACT</a></div>
+                <div class="sec_nav_item"><a href="frm_login.html">LOGIN</a></div>
+            </div>
+
+        </aside>
+        <div id="footer_middle">
+            <p class="footer_text"><strong>Contact</strong></p>
+            <p class="footer_text">123 Street Name | QC | A1B 2C3 </p>
+            <p class="footer_text"><strong>T:</strong> 514.123.4567</p>
+            <p class="footer_text"><strong>F:</strong> 514.123.4567</p>
+        </div>
+
+        <aside id="footer_right">
+            <p class="footer_text"><strong>Social Media</strong></p>
+            <ul id="sec_naviagtion2">
+                <li id="social_media_icon2"><a href="#4"><img src="Image/facebook.png" alt="facebook"></a></li>
+                <li id="social_media_icon3"><a href="#5"><img src="Image/instagram.png" alt="instragam"></a></li>
+                <li id="social_media_icon4"><a href="#6"><img src="Image/twitter.png" alt="twitter"></a></li>
+                <li id="social_media_icon1"><a href="#1"><img src="Image/linkedin.png" alt="Linkedin"></a></li>
+            </ul>
+        </aside>
+
+      </footer>
+      <div id="footer_bottom">
+          <h6>Copyright &copy; 2022</h6>
+      </div>
+    </div>
+  </body>
+</html>
